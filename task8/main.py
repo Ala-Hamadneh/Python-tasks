@@ -5,7 +5,7 @@ def main():
     is_running = True
 
     print("\n" + "*" * 36)
-    print("Stings Sorting in Alphabetical Order")
+    print("Stings Sortings in Alphabetical Order")
     print("*" * 36)
 
     while is_running:
