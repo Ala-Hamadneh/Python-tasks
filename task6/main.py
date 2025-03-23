@@ -4,7 +4,6 @@ from random import choices
 
 
 def main():
-    # x=tuple()
     card_type = ["Heart", "Spade", "Diamond", "Club"]
     cards_deck = list(itertools.product(card_type, range(1, 14)))
 
