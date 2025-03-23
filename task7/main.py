@@ -14,12 +14,16 @@ def main():
         result = remove_punctuation(text)
         print(f"String without punctuation: {result}")
 
-        choice = input("To quit press 'q' : ")
-        if choice == "q":
-            is_running = False
-            continue
-        else:
-            continue
+        while True:
+            choice = input("Enter 'q' to quit or 'c' to continue  :").lower()
+            if choice == "q":
+                is_running = False
+                break
+            elif choice == "c":
+                break
+            else:
+                print("invalid choice!, try again.")
+                print("\n" + "*" * 36)
 
 
 if __name__ == '__main__':
