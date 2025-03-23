@@ -7,7 +7,7 @@ def main():
         print("Random Number Generator")
         print("*" * 30)
 
-        print("Enter 'q' to quit")
+        print("Enter 'q' to quit.")
         choice = input("Enter the first number of the range: ")
         if choice.isdigit():
             num1=int(choice)
@@ -18,6 +18,7 @@ def main():
                 continue
             else:
                 print(f"{choice} is not a number.")
+                continue
 
         choice = input("Enter the second number of the range: ")
         if choice.isdigit():
