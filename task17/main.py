@@ -12,25 +12,20 @@ def main():
         choice = input('Enter your choice: ')
         match choice:
             case '1':
-                    file.seek(0)
-                    print(file.read())
-                    continue
+                file.seek(0)
+                print(file.read())
             case '2':
                 file.seek(0)
                 print(file.readline())
-                continue
             case '3':
                 file.seek(0,2)
                 name=input("Enter a name to add it to the file 'names.txt': ")
                 file.write("\n"+name)
-                continue
             case '4':
                 is_running = False
                 file.close()
-                continue
             case _:
                 print("Invalid choice. Try again.")
-                continue
 
 
     file.close()
