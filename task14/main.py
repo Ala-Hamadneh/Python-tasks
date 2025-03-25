@@ -16,6 +16,7 @@ def convert_lists_to_dict(list1,list2):
 
 def main():
     is_running = True
+# why using global ?
     global is_first
     keys=[]
     values=[]
