@@ -1,6 +1,7 @@
 def main():
     is_running = True
     file = open('names.txt', 'r+')
+#  can you take a look on how to deal with the files using with open(...) 
     while is_running:
         print("\n"+"*"*35)
         print('File Read & Write Handling  ')
