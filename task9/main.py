@@ -34,7 +34,7 @@ def main():
             fill_dict(dict2)
         else:
             print("invalid choice!")
-
+    # be careful when using names merge_dicts <variable> with same function name = merge_dicts
     merged_dicts= merge_dicts(dict1, dict2)
     print(f"The merged dictionary is: {merged_dicts}")
 
